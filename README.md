@@ -1,3 +1,5 @@
+# Documents classification
+
 The goal of this project is to study automatic classification methods for 
 scanned documents. Scanned documents have several specificities compared 
 to electronic text:
