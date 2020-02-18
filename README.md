@@ -1,4 +1,4 @@
-# Documents classification
+# Documents classification 
 
 The goal of this project is to study automatic classification methods for 
 scanned documents. Scanned documents have several specificities compared 
@@ -17,3 +17,8 @@ python extract_text.py ../Data/train2/xml ../Data/train2/txt/ ../Data/train2/tra
 ```
 
 And for the dev2 dataset, we can just replace train2 by dev2 and execute the same command.
+
+To extract data for images through the command line, we can pass the following command :
+```
+python extract_data.py ../Data ../Data/train2/train_png ../Data/dev2/dev_png ../Data/train2/xml ../Data/dev2/xml
+```
